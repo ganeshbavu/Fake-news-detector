@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fake News Detector</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f4f4f4;
+            text-align: center;
+        }
+        textarea {
+            width: 60%;
+            height: 150px;
+        }
+        button {
+            padding: 10px 20px;
+            background: blue;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Fake News Detector</h1>
+
+<form method="POST" action="/detect/">
+    {% csrf_token %}
+    <textarea name="content" placeholder="Enter news here..."></textarea><br><br>
+    <button type="submit">Check News</button>
+</form>
+
+</body>
+</html>
