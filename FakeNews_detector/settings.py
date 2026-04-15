@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-tmz632-7@ef=(av)dmvg5k25t_=1_o+n%iddgyswx9fznev7!g
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['fake-news-detector-8wwm.onrender.com']
 
 
 # Application definition
