@@ -1,26 +1,21 @@
-# 🧠 Fake News Detector (Django Project)
+#  Fake News Detector (Django Project)
 
 A full-stack web application built using Django that detects whether a given news content is **Real or Fake**.
 
----
 
-## 🌐 Live Demo
+# Live Demo
 
-👉 https://fake-news-detector-8wwm.onrender.com
+ https://fake-news-detector-8wwm.onrender.com
 
----
+# Features
 
-## 🚀 Features
+*  User can enter news content
+*  Detects whether news is Fake or Real
+*  Stores results in database (SQLite)
+*  Fast and simple UI
+*  Deployed on Render
 
-* 📰 User can enter news content
-* 🔍 Detects whether news is Fake or Real
-* 💾 Stores results in database (SQLite)
-* ⚡ Fast and simple UI
-* 🌍 Deployed on Render
-
----
-
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Frontend:** HTML, CSS
 * **Backend:** Python (Django Framework)
@@ -28,11 +23,8 @@ A full-stack web application built using Django that detects whether a given new
 * **Deployment:** Render
 * **Server:** Gunicorn
 
----
+##  Structure of the project Folder
 
-## 📁 Project Structure
-
-```
 FakeNews_detector/
 │
 ├── manage.py
@@ -52,86 +44,66 @@ FakeNews_detector/
 │       └── detector/
 │           ├── index.html
 │           └── result.html
-```
 
----
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 1. Clone the repository:
 
-```
 git clone https://github.com/ganeshbavu/Fake-news-detector.git
-```
 
 2. Navigate to project folder:
 
-```
 cd Fake-news-detector
-```
 
 3. Create virtual environment:
-
-```
+   
 python -m venv venv
-```
 
 4. Activate environment:
 
-```
 venv\Scripts\activate
-```
 
 5. Install dependencies:
 
-```
 pip install -r requirements.txt
-```
 
 6. Run migrations:
-
-```
+   
 python manage.py migrate
-```
 
 7. Start server:
-
-```
+   
 python manage.py runserver
-```
 
 8. Open in browser:
 
-```
 http://127.0.0.1:8000/
-```
 
----
-
-## 🧠 How It Works
+# Works process
 
 * User enters news content
 * System checks keywords (basic logic)
-* Displays result: **Fake** or **Real**
+* Displays result: "Fake" or "Real"
 * Stores input and result in database
 
 ---
 
-## 📌 Future Enhancements
+# Future Enhancements
 
-* 🤖 Integrate Machine Learning model
-* 🔐 Add user authentication (Login/Register)
-* 📊 Dashboard for previous results
-* 🎨 Improve UI/UX
+*  Integrate Machine Learning model
+*  Add user authentication (Login/Register)
+*  Dashboard for previous results
+*  Improve UI/UX
 
 ---
 
-## 👨‍💻 Author
+## created by
 
 **Ganesh Bavu**
 
 ---
 
-## ⭐ If you like this project
+# ⭐ If you like this project
 
 Give it a ⭐ on GitHub!
